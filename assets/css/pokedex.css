@@ -1,8 +1,8 @@
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0;
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .flying {
-    background-color: #a98ff0;
+    background-color: #a98ffe;
 }
 
 .poison {
@@ -47,7 +47,7 @@
 }
 
 .psychic {
-    background-color: #f65687;
+    background-color: #165687;
 }
 
 .dark {
@@ -71,12 +71,13 @@
 }
 
 .dragon {
-    background-color: #6f38f6;
+    background-color: #613816;
 }
 
 .fairy {
     background-color: #f9aec7;
 }
+
 
 .pokemon {
     display: flex;
@@ -84,19 +85,20 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    color: #fff;
 }
 
 .pokemon .number {
     color: #000;
     opacity: .3;
     text-align: right;
-    font-size: .625rem;
 }
-
+    
 .pokemon .name {
-    text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+    font-size: .825rem;
+    text-transform: capitalize;
 }
 
 .pokemon .detail {
@@ -106,20 +108,20 @@
     justify-content: space-between;
 }
 
-.pokemon .detail .types {
+.pokemon .types {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
 .pokemon .detail .types .type {
+    filter: brightness(1.1);
     color: #fff;
+    text-align: center;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
-    filter: brightness(1.1);
-    text-align: center;
 }
 
 .pokemon .detail img {
@@ -137,13 +139,13 @@
 }
 
 .pagination button {
-    padding: .25rem .5rem;
-    margin: .25rem 0;
-    font-size: .625rem;
-    color: #fff;
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    color: white;
+    padding: .25 .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
 }
 
 @media screen and (min-width: 380px) {
