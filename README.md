@@ -4,6 +4,10 @@ Este é um projeto de Pokedex desenvolvido como parte da trilha de desenvolvimen
 
 A Pokedex é uma aplicação web que exibe informações sobre os primeiros 151 Pokémons da primeira geração e com possibilidade de visualizar as outras. Neste repositório, você encontrará os arquivos HTML, CSS e JavaScript que compõem a aplicação.
 
+## Deploy
+
+[Link de Acesso](https://js-developer-pokedex-red.vercel.app/)
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de que você possui os seguintes recursos instalados:
@@ -54,5 +58,3 @@ A aplicação Pokedex possui as seguintes funcionalidades:
 Este projeto foi desenvolvido como parte de um exercício na trilha de desenvolvimento front-end da plataforma DIO. Se você deseja contribuir ou fazer melhorias, sinta-se à vontade para criar um fork deste repositório e enviar suas sugestões por meio de pull requests.
 
 Agradecemos por participar deste projeto!
-
-**Nota:** Este README é uma orientação geral sobre o projeto. Certifique-se de adaptá-lo e personalizá-lo conforme necessário, adicionando informações específicas sobre o seu projeto e como executá-lo.
